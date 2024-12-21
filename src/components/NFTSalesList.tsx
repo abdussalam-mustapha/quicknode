@@ -14,7 +14,7 @@ const NFTSalesList = () => {
   ]);
 
   useEffect(() => {
-    const ws = new WebSocket('wss://your-websocket-server');
+    const ws = new WebSocket('wss://');
     ws.onmessage = (event) => {
       const newSale: Sale = JSON.parse(event.data);
       setSales((prevSales) => [newSale, ...prevSales]);
