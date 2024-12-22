@@ -14,6 +14,10 @@ This project demonstrates the integration of QuickNode's powerful blockchain inf
 - WebSocket-based event subscriptions
 - Custom business logic implementation
 
+## Documentation
+
+The documentation for the API can be found here (swagger docs)[https://quicknode-backend.onrender.com/api-docs]
+
 ## 🛠 Technologies
 
 - QuickNode Streams
